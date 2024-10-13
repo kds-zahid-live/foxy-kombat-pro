@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Fox from "./FoxCounter";
+import Fox from "./Foxx";
 
 function App() {
   return (

@@ -16,3 +16,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+/* foxy kombat */
+
+
+@keyframes floatDollar {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100px) translateX(calc(Math.random() - 0.5) * 40px);
+    opacity: 0;
+  }
+}
+
+.animate-float-dollar {
+  animation: floatDollar 0.5s forwards;
+}
